@@ -1,2 +1,4 @@
-Medici.TV changelog:
----------------------
+plugin.video.medici.tv:
+-----------------------
+v1.0.2:
+other: add-on rewritten

@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="plugin.video.medici.tv"
-  version="1.0.1"
+  version="1.0.2"
   name="Medici.TV"
   provider-name="queeup">
   <requires>
     <import addon="xbmc.python"
-            version="1.0"/>
+            version="2.0"/>
     <import addon="script.module.beautifulsoup"
             version="3.0.8"/>
     <import addon="script.module.simplejson"
             version="2.0.10"/>
+    <import addon="script.module.requests"
+            version="0.9.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
              library="addon.py">
@@ -35,6 +37,5 @@
     More details on : http://www.medici.tv/</description>
     <license>WTFPL</license>
     <platform>all</platform>
-    <broken>Site changes</broken>
   </extension>
 </addon>

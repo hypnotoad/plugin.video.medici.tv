@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <setting id="quality" type="enum" label="Video Quality" values="low|mid|high" default="mid"/>
+    <setting id="username" type="text" label="Username" default=""/>
+    <setting id="password" type="text" option="hidden" enable="!eq(-1,)" label="Password" default=""/>
+</settings>
